@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+html,body {
+    background: hsl(216, 12%, 8%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    min-height: 100vh;  
+}
+.rating {
+    background: hsl(213, 19%, 18%);
+    border: 1px solid white;
+    border-radius: 10%;
+    padding: 15px;
+    max-width: 350px;
+}
+
+h1 {
+    color: hsl(0, 0%, 100%);
+}
+p {
+    color: hsl(217, 12%, 63%);
+    font-size: 15px;
+}
+#buttons {
+    display: flex;
+}
+.circle {
+    background: hsl(216, 12%, 54%);
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 5px;
+    color: hsl(217, 12%, 63%);
+    text-align: center;
+}
+#submit {
+    background: hsl(25, 97%, 53%);
+    border: none;
+    border-radius: 5%;
+    color: hsl(217, 12%, 63%);
+    margin: 5px;
+    padding: 10px;
+}
+#thankyou {
+    display: none;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
