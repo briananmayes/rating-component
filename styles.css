@@ -10,6 +10,12 @@ html,body {
     padding: 10px;
     min-height: 100vh;  
 }
+@media (max-width: 420px) {
+    html,body{
+        height: 100%;
+        margin: 0;
+    }
+}
 .rating {
     background: hsl(213, 19%, 18%);
     border: 1px solid white;
@@ -27,6 +33,7 @@ p {
 }
 #buttons {
     display: flex;
+    justify-content: space-around;
 }
 .circle {
     background: hsl(216, 12%, 54%);
@@ -36,14 +43,19 @@ p {
     margin: 5px;
     color: hsl(217, 12%, 63%);
     text-align: center;
+    width: 50px;
+    height: 50px;
+    font-size: 15px;
 }
 #submit {
     background: hsl(25, 97%, 53%);
     border: none;
-    border-radius: 5%;
+    border-radius: 60%;
     color: hsl(217, 12%, 63%);
     margin: 5px;
     padding: 10px;
+    width: 300px;
+    height: 40px;
 }
 #thankyou {
     display: none;
